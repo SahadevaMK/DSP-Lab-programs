@@ -10,6 +10,8 @@ printf("Enter the length of h(n)\n");
 scanf("%d",&n);
 printf("Enter x(n)\n");
 for(i=0;i<m;i++)
+
+
 scanf("%d",&x[i]);
 for(i=m;i<m+n;i++)
 x[i]=0;
