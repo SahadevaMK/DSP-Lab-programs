@@ -15,10 +15,10 @@ int main(){
     for (i=0;i<n;i++){
         cin >> h[i];
     }
-    for (i=m;i<=m+n-1;i++){
+    for (i=m;i<m+n-1;i++){
         x[i] = 0;
     }
-    for (i=n;i<=m+n-1;i++){
+    for (i=n;i<m+n-1;i++){
         h[i] = 0;
     }
 
